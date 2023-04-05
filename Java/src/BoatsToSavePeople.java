@@ -2,6 +2,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class BoatsToSavePeople {
+    /* My second solution
+     * Got accepted, and it's fast and low memory
+     */
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
 
