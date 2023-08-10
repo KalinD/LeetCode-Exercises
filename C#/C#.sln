@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "Valid P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParenthesesTest", "Valid Parentheses Test\ValidParenthesesTest.csproj", "{9A278FDE-40C8-4ED8-BBDA-68B0F5440F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{975EE680-D65E-4FAE-BCCB-77375EE04873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{975EE680-D65E-4FAE-BCCB-77375EE04873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedListsTest", "MergeTwoSortedListsTest\MergeTwoSortedListsTest.csproj", "{E0450C56-BA07-416E-8AF1-E3D59DB932C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedListsTest", "MergeTwoSortedListsTest\MergeTwoSortedListsTest.csproj", "{E0450C56-BA07-416E-8AF1-E3D59DB932C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArrayTest", "RemoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{0A36592B-568A-4F59-BC2A-ECD53190800A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E0450C56-BA07-416E-8AF1-E3D59DB932C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0450C56-BA07-416E-8AF1-E3D59DB932C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0450C56-BA07-416E-8AF1-E3D59DB932C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
