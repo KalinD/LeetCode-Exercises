@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLists", "Merg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedListsTest", "MergeTwoSortedListsTest\MergeTwoSortedListsTest.csproj", "{E0450C56-BA07-416E-8AF1-E3D59DB932C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{59ACC1EC-9AEB-434C-A97A-21D364D07A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArrayTest", "RemoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{0A36592B-568A-4F59-BC2A-ECD53190800A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArrayTest", "RemoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{0A36592B-568A-4F59-BC2A-ECD53190800A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{72F4A83B-B932-4C82-9A08-73BA50F9191B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElementTest", "RemoveElementTest\RemoveElementTest.csproj", "{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A36592B-568A-4F59-BC2A-ECD53190800A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F4A83B-B932-4C82-9A08-73BA50F9191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F4A83B-B932-4C82-9A08-73BA50F9191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F4A83B-B932-4C82-9A08-73BA50F9191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F4A83B-B932-4C82-9A08-73BA50F9191B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
