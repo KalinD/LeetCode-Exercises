@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArrayTest", "RemoveDuplicatesFromSortedArrayTest\RemoveDuplicatesFromSortedArrayTest.csproj", "{0A36592B-568A-4F59-BC2A-ECD53190800A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{72F4A83B-B932-4C82-9A08-73BA50F9191B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{72F4A83B-B932-4C82-9A08-73BA50F9191B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElementTest", "RemoveElementTest\RemoveElementTest.csproj", "{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElementTest", "RemoveElementTest\RemoveElementTest.csproj", "{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccurrenceInAString", "FindTheIndexOfTheFirstOccurrenceInAString\FindTheIndexOfTheFirstOccurrenceInAString.csproj", "{C405123F-45F6-42E7-9250-12DA3D12E30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccurrenceInAStringTest", "FindTheIndexOfTheFirstOccurrenceInAStringTest\FindTheIndexOfTheFirstOccurrenceInAStringTest.csproj", "{CD073422-B3BC-401C-99EF-DFF75D10B9A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C405123F-45F6-42E7-9250-12DA3D12E30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C405123F-45F6-42E7-9250-12DA3D12E30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C405123F-45F6-42E7-9250-12DA3D12E30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C405123F-45F6-42E7-9250-12DA3D12E30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
