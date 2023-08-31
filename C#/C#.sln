@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccurrenceInAStringTest", "FindTheIndexOfTheFirstOccurrenceInAStringTest\FindTheIndexOfTheFirstOccurrenceInAStringTest.csproj", "{CD073422-B3BC-401C-99EF-DFF75D10B9A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToRoman", "IntegerToRoman\IntegerToRoman.csproj", "{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToRomanTest", "IntegerToRomanTest\IntegerToRomanTest.csproj", "{55F341CB-A32C-439A-BD1D-D35D72394ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD073422-B3BC-401C-99EF-DFF75D10B9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
