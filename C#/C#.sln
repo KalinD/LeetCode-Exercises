@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPosition", "Sea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPositionTest", "SearchInsertPositionTest\SearchInsertPositionTest.csproj", "{69E79818-86E2-4567-8199-2C037499BADF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{0681516F-4C58-4538-9E6E-EF4156C4EC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3SumTest", "3SumTest\3SumTest.csproj", "{585904A3-2D0C-443D-83B1-BDC753731773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{69E79818-86E2-4567-8199-2C037499BADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E79818-86E2-4567-8199-2C037499BADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E79818-86E2-4567-8199-2C037499BADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0681516F-4C58-4538-9E6E-EF4156C4EC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0681516F-4C58-4538-9E6E-EF4156C4EC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0681516F-4C58-4538-9E6E-EF4156C4EC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0681516F-4C58-4538-9E6E-EF4156C4EC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585904A3-2D0C-443D-83B1-BDC753731773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585904A3-2D0C-443D-83B1-BDC753731773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585904A3-2D0C-443D-83B1-BDC753731773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585904A3-2D0C-443D-83B1-BDC753731773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
