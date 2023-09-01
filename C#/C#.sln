@@ -19,13 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElement", "RemoveElem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElementTest", "RemoveElementTest\RemoveElementTest.csproj", "{5F84A47F-7879-47CF-BC0C-CEE9E9A91F73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccurrenceInAString", "FindTheIndexOfTheFirstOccurrenceInAString\FindTheIndexOfTheFirstOccurrenceInAString.csproj", "{C405123F-45F6-42E7-9250-12DA3D12E30B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheIndexOfTheFirstOccurrenceInAString", "FindTheIndexOfTheFirstOccurrenceInAString\FindTheIndexOfTheFirstOccurrenceInAString.csproj", "{C405123F-45F6-42E7-9250-12DA3D12E30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccurrenceInAStringTest", "FindTheIndexOfTheFirstOccurrenceInAStringTest\FindTheIndexOfTheFirstOccurrenceInAStringTest.csproj", "{CD073422-B3BC-401C-99EF-DFF75D10B9A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheIndexOfTheFirstOccurrenceInAStringTest", "FindTheIndexOfTheFirstOccurrenceInAStringTest\FindTheIndexOfTheFirstOccurrenceInAStringTest.csproj", "{CD073422-B3BC-401C-99EF-DFF75D10B9A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToRoman", "IntegerToRoman\IntegerToRoman.csproj", "{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRoman", "IntegerToRoman\IntegerToRoman.csproj", "{9C09B3EC-D6BF-433E-8DB2-F5A85755CCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToRomanTest", "IntegerToRomanTest\IntegerToRomanTest.csproj", "{55F341CB-A32C-439A-BD1D-D35D72394ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRomanTest", "IntegerToRomanTest\IntegerToRomanTest.csproj", "{55F341CB-A32C-439A-BD1D-D35D72394ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPosition", "SearchInsertPosition\SearchInsertPosition.csproj", "{B7C1247F-EB58-4F9D-BAB5-47E48D65F7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPositionTest", "SearchInsertPositionTest\SearchInsertPositionTest.csproj", "{69E79818-86E2-4567-8199-2C037499BADF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55F341CB-A32C-439A-BD1D-D35D72394ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C1247F-EB58-4F9D-BAB5-47E48D65F7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C1247F-EB58-4F9D-BAB5-47E48D65F7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C1247F-EB58-4F9D-BAB5-47E48D65F7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C1247F-EB58-4F9D-BAB5-47E48D65F7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E79818-86E2-4567-8199-2C037499BADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E79818-86E2-4567-8199-2C037499BADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E79818-86E2-4567-8199-2C037499BADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E79818-86E2-4567-8199-2C037499BADF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
