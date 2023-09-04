@@ -17,13 +17,9 @@ public class Solution
                 closest = nums[start] + nums[left] + nums[right];
                 isInitial = false;
             }
-            if (nums[start] == 60) {
-                Console.WriteLine(nums[start]);
-            }
             while (left < right)
             {
                 int s = nums[start] + nums[left] + nums[right];
-                Console.WriteLine(s);
                 if (Math.Abs(target - s) < Math.Abs(target - closest))
                 {
                     closest = s;
