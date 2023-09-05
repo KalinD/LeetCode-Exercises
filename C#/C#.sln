@@ -53,21 +53,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21. Merge Two Sorted Lists"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "66. Plus One", "66. Plus One", "{C943488D-3EB8-4781-822D-EC139BBEF59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOne", "PlusOne\PlusOne.csproj", "{526D1E26-6CE3-4C8D-838E-E3D882B41E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusOne", "PlusOne\PlusOne.csproj", "{526D1E26-6CE3-4C8D-838E-E3D882B41E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOneTest", "PlusOneTest\PlusOneTest.csproj", "{A9636CEB-405C-4B7C-82E7-0116F54C0568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusOneTest", "PlusOneTest\PlusOneTest.csproj", "{A9636CEB-405C-4B7C-82E7-0116F54C0568}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. 3Sum Closest", "16. 3Sum Closest", "{9090659D-D73D-4DE6-97C2-0C4D7D92D79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3SumClosest", "3SumClosest\3SumClosest.csproj", "{6ED57A44-734A-4AD0-9009-BB6DD109CA89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3SumClosest", "3SumClosest\3SumClosest.csproj", "{6ED57A44-734A-4AD0-9009-BB6DD109CA89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3SumClosestTest", "3SumClosestTest\3SumClosestTest.csproj", "{51CF9E15-BBD1-4D4E-8C91-E7AE819F5781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3SumClosestTest", "3SumClosestTest\3SumClosestTest.csproj", "{51CF9E15-BBD1-4D4E-8C91-E7AE819F5781}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Regular Expression Matching", "10. Regular Expression Matching", "{D8C3AC80-F938-469C-BD98-18C121C7FA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressionMatching", "RegularExpressionMatching\RegularExpressionMatching.csproj", "{A9274837-567B-4764-A8F4-2CC2C154C671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressionMatching", "RegularExpressionMatching\RegularExpressionMatching.csproj", "{A9274837-567B-4764-A8F4-2CC2C154C671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressionMatchingTest", "RegularExpressionMatchingTest\RegularExpressionMatchingTest.csproj", "{235C4E94-3863-469B-879C-ED8D80BD69C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressionMatchingTest", "RegularExpressionMatchingTest\RegularExpressionMatchingTest.csproj", "{235C4E94-3863-469B-879C-ED8D80BD69C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "67. Add Binary", "67. Add Binary", "{405063EE-2FD6-40BC-B032-EF6E8F680323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddBinary", "AddBinary\AddBinary.csproj", "{A525CD7E-7289-44C8-9306-8B5992E68AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddBinaryTest", "AddBinaryTest\AddBinaryTest.csproj", "{294C27A0-1507-4517-9283-2619CFD5876B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -163,6 +169,14 @@ Global
 		{235C4E94-3863-469B-879C-ED8D80BD69C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{235C4E94-3863-469B-879C-ED8D80BD69C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{235C4E94-3863-469B-879C-ED8D80BD69C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A525CD7E-7289-44C8-9306-8B5992E68AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A525CD7E-7289-44C8-9306-8B5992E68AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A525CD7E-7289-44C8-9306-8B5992E68AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A525CD7E-7289-44C8-9306-8B5992E68AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294C27A0-1507-4517-9283-2619CFD5876B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294C27A0-1507-4517-9283-2619CFD5876B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294C27A0-1507-4517-9283-2619CFD5876B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294C27A0-1507-4517-9283-2619CFD5876B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +204,8 @@ Global
 		{51CF9E15-BBD1-4D4E-8C91-E7AE819F5781} = {9090659D-D73D-4DE6-97C2-0C4D7D92D79D}
 		{A9274837-567B-4764-A8F4-2CC2C154C671} = {D8C3AC80-F938-469C-BD98-18C121C7FA84}
 		{235C4E94-3863-469B-879C-ED8D80BD69C9} = {D8C3AC80-F938-469C-BD98-18C121C7FA84}
+		{A525CD7E-7289-44C8-9306-8B5992E68AA1} = {405063EE-2FD6-40BC-B032-EF6E8F680323}
+		{294C27A0-1507-4517-9283-2619CFD5876B} = {405063EE-2FD6-40BC-B032-EF6E8F680323}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36E0B587-ABA1-489E-842D-1E614B511999}
