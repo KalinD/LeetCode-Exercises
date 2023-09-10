@@ -95,9 +95,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqrtTest", "SqrtTest\SqrtTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. Remove Nth Node From End of List", "19. Remove Nth Node From End of List", "{43D043C6-9684-4959-A07B-15561B16D2ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNthNodeFromEndOfList", "RemoveNthNodeFromEndOfList\RemoveNthNodeFromEndOfList.csproj", "{B52F78AB-D3BB-4F2A-B1C9-2B30D9596DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveNthNodeFromEndOfList", "RemoveNthNodeFromEndOfList\RemoveNthNodeFromEndOfList.csproj", "{B52F78AB-D3BB-4F2A-B1C9-2B30D9596DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNthNodeFromEndOfListTest", "RemoveNthNodeFromEndOfListTest\RemoveNthNodeFromEndOfListTest.csproj", "{0FAF908B-FAB4-4EF9-B1FF-4973131BE918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveNthNodeFromEndOfListTest", "RemoveNthNodeFromEndOfListTest\RemoveNthNodeFromEndOfListTest.csproj", "{0FAF908B-FAB4-4EF9-B1FF-4973131BE918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70. Climbing Stairs", "70. Climbing Stairs", "{08276E5E-C492-43CA-AAE8-857478DCA120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingStairs", "ClimbingStairs\ClimbingStairs.csproj", "{BBF39AB0-2B24-452A-8463-1E6A6A16676D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingStairsTest", "ClimbingStairsTest\ClimbingStairsTest.csproj", "{E44C079C-B3E6-435C-BC89-06D4E25184E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -233,6 +239,14 @@ Global
 		{0FAF908B-FAB4-4EF9-B1FF-4973131BE918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FAF908B-FAB4-4EF9-B1FF-4973131BE918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FAF908B-FAB4-4EF9-B1FF-4973131BE918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF39AB0-2B24-452A-8463-1E6A6A16676D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF39AB0-2B24-452A-8463-1E6A6A16676D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF39AB0-2B24-452A-8463-1E6A6A16676D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF39AB0-2B24-452A-8463-1E6A6A16676D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44C079C-B3E6-435C-BC89-06D4E25184E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44C079C-B3E6-435C-BC89-06D4E25184E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44C079C-B3E6-435C-BC89-06D4E25184E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44C079C-B3E6-435C-BC89-06D4E25184E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +284,8 @@ Global
 		{9A8FB5DB-D6CC-4AE2-9FB7-48181C2352C7} = {607DE487-C660-4DE7-A9FC-58CE424E3F1C}
 		{B52F78AB-D3BB-4F2A-B1C9-2B30D9596DCE} = {43D043C6-9684-4959-A07B-15561B16D2ED}
 		{0FAF908B-FAB4-4EF9-B1FF-4973131BE918} = {43D043C6-9684-4959-A07B-15561B16D2ED}
+		{BBF39AB0-2B24-452A-8463-1E6A6A16676D} = {08276E5E-C492-43CA-AAE8-857478DCA120}
+		{E44C079C-B3E6-435C-BC89-06D4E25184E4} = {08276E5E-C492-43CA-AAE8-857478DCA120}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36E0B587-ABA1-489E-842D-1E614B511999}
