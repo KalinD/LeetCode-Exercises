@@ -113,9 +113,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateParenthesesTest", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25. Reverse Nodes in k-Group", "25. Reverse Nodes in k-Group", "{E573CCE1-FF26-4807-B743-3C798B32B6ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNodesInKGroup", "ReverseNodesInKGroup\ReverseNodesInKGroup.csproj", "{FE68089F-10D2-4A32-A196-BAB21F510443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNodesInKGroup", "ReverseNodesInKGroup\ReverseNodesInKGroup.csproj", "{FE68089F-10D2-4A32-A196-BAB21F510443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNodesInKGroupTest", "ReverseNodesInKGroupTest\ReverseNodesInKGroupTest.csproj", "{87D98A2C-A35F-4391-B8EB-FF9135E016F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseNodesInKGroupTest", "ReverseNodesInKGroupTest\ReverseNodesInKGroupTest.csproj", "{87D98A2C-A35F-4391-B8EB-FF9135E016F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "24. Swap Nodes in Pairs", "24. Swap Nodes in Pairs", "{C189DD18-2FB3-403B-BD02-3AD3490D37FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapNodesInPairs", "SwapNodesInPairs\SwapNodesInPairs.csproj", "{48559C31-8EBE-4C50-9A96-AE537AE7E541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapNodesInPairsTest", "SwapNodesInPairsTest\SwapNodesInPairsTest.csproj", "{C8AFFAAC-021E-49DA-82DA-6C76C00B77B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -275,6 +281,14 @@ Global
 		{87D98A2C-A35F-4391-B8EB-FF9135E016F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87D98A2C-A35F-4391-B8EB-FF9135E016F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87D98A2C-A35F-4391-B8EB-FF9135E016F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48559C31-8EBE-4C50-9A96-AE537AE7E541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48559C31-8EBE-4C50-9A96-AE537AE7E541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48559C31-8EBE-4C50-9A96-AE537AE7E541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48559C31-8EBE-4C50-9A96-AE537AE7E541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AFFAAC-021E-49DA-82DA-6C76C00B77B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AFFAAC-021E-49DA-82DA-6C76C00B77B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AFFAAC-021E-49DA-82DA-6C76C00B77B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AFFAAC-021E-49DA-82DA-6C76C00B77B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,6 +332,8 @@ Global
 		{8EB1F873-F7DE-46C2-8053-FD651EF7A984} = {171509F9-D06C-4A06-A759-D078A2FDC5DB}
 		{FE68089F-10D2-4A32-A196-BAB21F510443} = {E573CCE1-FF26-4807-B743-3C798B32B6ED}
 		{87D98A2C-A35F-4391-B8EB-FF9135E016F0} = {E573CCE1-FF26-4807-B743-3C798B32B6ED}
+		{48559C31-8EBE-4C50-9A96-AE537AE7E541} = {C189DD18-2FB3-403B-BD02-3AD3490D37FC}
+		{C8AFFAAC-021E-49DA-82DA-6C76C00B77B8} = {C189DD18-2FB3-403B-BD02-3AD3490D37FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36E0B587-ABA1-489E-842D-1E614B511999}
