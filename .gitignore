@@ -474,3 +474,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+/Python3/.idea
