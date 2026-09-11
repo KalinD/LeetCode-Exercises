@@ -31,12 +31,12 @@ public:
         }
         
         if (0 == evenCount) return 0;
-        if ((1 == evens.size()) && (0 == odds.size()) && (0 != digits.at(0))) return 1;
+        if ((1 == evens.size()) && (false != odds.empty()) && (0 != digits.at(0))) return 1;
 
         return helper1(evens, odds);
     }
 
-    int helper1(unordered_map<int, unsigned char> evens, unordered_map<int, unsigned char> odds) {
+    int helper1(unordered_map<int, unsigned char>& evens, unordered_map<int, unsigned char>& odds) {
         int res = 0;
         for (auto pair : odds) {
             --odds[pair.first];
@@ -53,26 +53,26 @@ public:
         return res;
     }
 
-    int helper2(unordered_map<int, unsigned char> evens, unordered_map<int, unsigned char> odds) {
+    int helper2(unordered_map<int, unsigned char>& evens, unordered_map<int, unsigned char>& odds) {
         int res = 0;
         for (auto pair : odds) {
             if (pair.second > 0) {
                 --odds[pair.first];
-                res += helper3(evens, odds);
+                res += helper3(evens);
                 ++odds[pair.first];
             }
         }
         for (auto pair : evens) {
             if (pair.second > 0) {
                 --evens[pair.first];
-                res += helper3(evens, odds);
+                res += helper3(evens);
                 ++evens[pair.first];
             }
         }
         return res;
     }
 
-    int helper3(unordered_map<int, unsigned char> evens, unordered_map<int, unsigned char> odds) {
+    int helper3(unordered_map<int, unsigned char>& evens) {
         int res = 0;
         for (auto pair : evens) {
             if (pair.second > 0) {

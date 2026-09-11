@@ -476,3 +476,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 /Python3/.idea
+
+.idea
